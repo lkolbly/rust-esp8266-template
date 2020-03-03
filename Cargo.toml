@@ -17,3 +17,6 @@ lto = false
 incremental = false
 debug = false # debug adds frame pointers - which must be omitted
 codegen-units = 1
+
+[package.metadata.cargo-xbuild]
+memcpy = false
